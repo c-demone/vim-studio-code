@@ -60,7 +60,7 @@ The following assumes you are using WSL2 with Ubuntu 20.04 LTS as your distro. T
 
 Once this is installed you may want to make Ubuntu your default upon opening Terminal:
 
-Next you should run the ps1 script included in this repository and taken from the [here](https://github.com/ryanoasis/nerd-fonts/issues/223#issuecomment-563141110)
+Next you should run the ps1 script included in this repository and taken from [here](https://github.com/ryanoasis/nerd-fonts/issues/223#issuecomment-563141110)
 
 This will install some Nerd Fonts and make them available. If you do not want to have to run this script every time you restart your computer, you should follow the steps in “Setting a Windows Profile for Nerd Fonts” in the following section. 
 
@@ -75,7 +75,6 @@ Here we will set the profile for All users. This requires that you be able to op
 You may have noticed that my terminal has a fancy powerline. I am currently using this [powerline Go-lang app](https://github.com/justjanne/powerline-go)
 
 An alternative is to use [this Python based option](https://medium.com/earlybyte/powerline-for-bash-6d3dd004f6fc)
-The Python based option should be more “out-of-the-box” on Unix systems, since python comes installed by default and can be installed with:
 
 <code>pip3 install powerline-gitstatus</code>
 
