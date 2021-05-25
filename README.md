@@ -7,7 +7,7 @@ The following is a guide in setting up your vim configuration to have it look an
 
 One modification is the additions of the web-devicons plugin, which provides the nice icons for the file explorer plugin, NERDTree. These icons rely on a special a special font-set called [Nerd Fonts,](https://github.com/ryanoasis/nerd-fonts) 
 
-In this README, I also hope to provide a reasonable guide for getting these to work properly for WSL. These instructions may also be helpful if you are connecting to your Linux machine through a terminal emulator such MobaXterm or PuTTY. The key is to set the font in the terminal emulator and not on the Linux machine, though you should do this as well if you every plan to connect directly to the box, and still want the icons to work.
+In this README, I also hope to provide a reasonable guide for getting these to work properly for WSL. These instructions may also be helpful if you are connecting to your Linux machine through a terminal emulator such MobaXterm or PuTTY. The key is to set the font in the terminal emulator and not on the Linux machine, though you should do this as well if you ever plan to connect directly to the box, and still want the icons to work.
 
 # Quickstart
 Clone this repository then run the setup script
@@ -24,9 +24,9 @@ Now open Vim and run <code>:PlugInstall</code>. Close Vim and re-open it! And vo
 Icons showing up as question marks? See WSL Setup section below.
 
 ## Summary of Important Keybindings
-The keybindings for Vim are configured in the .vimrc under the Keybinding section. You can change this to your liking if your are familiar with Vim keybindings. If not, they are fairly easy to look up on google. I’ve tried to set up the key bindings to may them intuitive.
+The keybindings for Vim are configured in the .vimrc under the Keybinding section. You can change this to your liking if your are familiar with Vim keybindings. If not, they are fairly easy to look up on google. I’ve tried to set up the key bindings such that they are somewhat intuitive.
 
-Note:  a split in Vim might be what you think of as a window in VS Code. 
+**Note**:  a split in Vim might be what you think of as a window in VS Code. 
 
 | Binding | Description |
 | ------- | ----------- |
